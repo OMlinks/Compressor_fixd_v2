@@ -169,6 +169,7 @@ if __name__ == "__main__" :
         
     @app.on_message(filters.incoming & (filters.video | filters.document))
     async def help_message(app, message):
+        if message.from_user.id in AUTH_USERS:
             return await message.reply_text("You are not authorised to use this bot contact @TheBatmanShan")
         query = await message.reply_text("Added to Queue ⏰...\nPlease be patient, Compress will start soon", quote=True)
         data.append(message)
