@@ -1,5 +1,5 @@
 #base image
-FROM OMlinks/Compressor_fixd_v3
+FROM OMlinks/Compressor_fixd_v4
 ENV TZ=Asia/Kolkata \
     DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
