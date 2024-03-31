@@ -1,5 +1,5 @@
 #base image
-FROM artemisfowl004/vid-compress
+FROM OMlinks/Compressor_fixd_v3
 ENV TZ=Asia/Kolkata \
     DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
