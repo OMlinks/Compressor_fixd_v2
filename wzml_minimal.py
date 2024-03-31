@@ -2,10 +2,10 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repo'
-    ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
+    ST_BN1_NAME = 'Owner'
+    ST_BN1_URL = 'https://t.me/OM_TG_V'
     ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
+    ST_BN2_URL = 'https://t.me/OM_links'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
@@ -108,12 +108,12 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''⌬ <b><i>Restarted Successfully!</i></b>
+    RESTART_SUCCESS = '''⌬ <b><i>Restarted Successfully!😊</i></b>
 ┠ <b>Date:</b> {date}
 ┠ <b>Time:</b> {time}
 ┠ <b>TimeZone:</b> {timz}
 ┖ <b>Version:</b> {version}'''
-    RESTARTED = '''⌬ <b><i>Bot Restarted!</i></b>'''
+    RESTARTED = '''⌬ <b><i>Bot Restarted!😊</i></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
@@ -122,7 +122,7 @@ class WZMLStyle:
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
-    LINKS_START = """<b><i>Task Started</i></b>
+    LINKS_START = """<b><i>Task Started🥰</i></b>
 ┠ <b>Mode:</b> {Mode}
 ┖ <b>By:</b> {Tag}\n\n"""
     LINKS_SOURCE = """➲ <b>Source:</b>
@@ -260,7 +260,9 @@ class WZMLStyle:
 ┖<b> Language :</b> {LANG}
 
 ➲ <u><b>Available Args:</b></u>
-• <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
+• <b>-s</b> or <b>-set</b>: Set Directly via Arg
+
+✨Powered by @OM_links ✨'''
 
     UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
 
@@ -270,7 +272,9 @@ class WZMLStyle:
 ┠<b> User Session :</b> <code>{USESS}</code>
 ┠<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
 ┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
-┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
+┖<b> User Bot PM :</b> <code>{BOT_PM}</code>
+
+✨Powered by @OM_links ✨'''
 
     MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
@@ -281,7 +285,9 @@ class WZMLStyle:
 ┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
 ┠<b> User TD Mode :</b> <i>{TMODE}</i>
 ┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
-┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
+┖<b> Daily Mirror :</b> <code>{DM}</code> per day
+
+✨Powered by @OM_links ✨'''
 
     LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
 
@@ -295,4 +301,6 @@ class WZMLStyle:
 ┠<b> Leech Prefix :</b> <code>{LPREFIX}</code>
 ┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
 ┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
-┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+┖<b> Leech Remname :</b> <code>{LREMNAME}</code>
+
+✨Powered by @OM_links ✨'''
